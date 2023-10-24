@@ -1,0 +1,11 @@
+eng-to-ipa==0.0.2
+googletrans==4.0.0rc1
+langdetect==1.0.9
+pyTelegramBotAPI==4.14.0
+pyttsx3==2.90
+SpeechRecognition==3.10.0
+python==3.10.0
+flask==3.0.0
+requests==2.31.0
+pip==23.3.1
+
