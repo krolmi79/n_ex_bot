@@ -6,7 +6,7 @@ import subprocess
 from background import keep_alive
 import eng_to_ipa as ipa
 
-token = '6478159905:AAGYHGMYCOGK_-j4NouU2RNx41Luqm_P1Uw'
+token = os.environ['TOKEN']
 bot = telebot.TeleBot(token)
 def text_to_convert(text):
     converted_text = (ipa.convert(text))
